@@ -14,8 +14,14 @@ class App extends Component {
   }
 }
 const mapStateToProps = (state) => { 
+<<<<<<< HEAD
   return {users: state.users}
 }
 
+=======
+  return 
+    { users: state.users }
+}
+>>>>>>> ea00ef66e266a297d17a5a8ac5eb3b9d5eefe7ec
 export default connect(mapStateToProps)(App);
 
